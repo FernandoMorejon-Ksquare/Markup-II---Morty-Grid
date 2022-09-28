@@ -1,0 +1,68 @@
+#container {
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 440px;
+}
+
+.mortyCard {
+
+    display: flex;
+    align-content: flex-start;
+    margin: 10px 10px 0px 10px;
+    background-color: rgba(121, 117, 113, 0.404);
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+
+img {
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.characterInfo {
+
+    margin-left: 14px;
+    width: 400px;
+    
+    
+}
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    color: white;
+}
+
+.statusAndRace {
+    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 15px 0px;
+    color: white;
+}
+
+.lastKnownLocation {
+    padding: 0px 0px 6px 0px;
+    margin: 0px 0px 15px 0px;
+    color: white;
+}
+
+.firstSeenIn {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+}
+
+p {
+    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    color: gray;
+}
